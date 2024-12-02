@@ -25,5 +25,19 @@
         <h6>Notes finales</h6>
             <p>Le titre (h6) et son paragraphe sont utilisés pour le plus bas de la hiérarchie de la page</p>
 
+        <h2>Formulaire de contact</h2>
+            <p>Ce formulaire permet de simuler l'envoi d'une requête vers un endpoint avec un faux service.</p>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
+
+            <label for="email">Email :</label><br>
+            <input type="email" id="email" name="email" placeholder="Votre email" required><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Envoyer</button>
     </body>
 </html>
