@@ -42,8 +42,9 @@
 
         <h2 id="formulaire">Formulaire de contact</h2>
             <p>Ce formulaire permet de simuler l'envoi d'une requête vers un endpoint avec un faux service.</p>
-
+<div class="form">
         <form action="https://jsonplaceholder.typicode.com/posts" method="POST">
+            
             <label for="nom">Nom :</label><br>
             <input type="text" id="nom" name="nom" placeholder="Votre nom" required><br><br>
 
@@ -52,9 +53,11 @@
 
             <label for="message">Message :</label><br>
             <textarea id="message" name="message" placeholder="Votre message" rows="5" required></textarea><br><br>
+</div><br>
 
             <button type="submit">Envoyer</button>
-
+            
+        </form>
 
             <h2 id="liste" class="highlight">Liste des tags liés à la typographie</h2>
     <ul>
