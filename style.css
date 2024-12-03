@@ -6,3 +6,44 @@ img {
     border-radius: 8px;
     display: block;
 }
+
+body{
+    background-color: rgba(248, 185, 238, 0.8);
+    font-family: cursive;
+}
+
+a:hover {
+    color: blueviolet;
+
+}
+
+button {
+    background-color: blueviolet;
+    border-radius: 10em;
+    width: 10em;
+    height: 3em; 
+    border: 2px solid #0f0909;
+    border-radius: 8px;
+}
+
+.form {
+    border-radius: 0.5em;
+    background-color: blueviolet;
+    border: 2px solid #0f0909;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;  
+}
+
+input{
+    border-radius: 0.5em;
+    font-family: cursive;
+    border: 2px solid #0f0909;
+}
+
+textarea {
+    border-radius: 0.5em;
+    font-family: cursive;
+    border: 2px solid #0f0909;
+}
