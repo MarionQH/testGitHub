@@ -58,5 +58,15 @@
         <li><strong>&lt;sub&gt;</strong> : Utilisé pour indiquer du texte en indice.</li>
     </ul>
     
+        <h2>Exemple avec AlpineJS</h2>
+            <div x-data="{ show: false }">
+                <button @click="show = !show">
+                    <span x-show="!show">Afficher l'élément</span>
+                    <span x-show="show">Cacher l'élément</span>
+                </button>
+                <p x-show="show" style="margin-top: 10px;">
+                    Ceci est un exemple de contenu contrôlé par AlpineJS. Il peut être affiché ou caché en cliquant sur le bouton ci-dessus.
+                </p>
+            </div>    
     </body>
 </html>
